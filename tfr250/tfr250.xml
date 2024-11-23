@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="stumpCutterCultivatorPlow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="$data/vehicles/tmcCancela/tfr250/tfr250.xml">
+        <attributes>
+			<set path="vehicle.storeData.name" value="TFR 250 (no-plow)"/>
+			<set path="vehicle.base.filename" value="$data/vehicles/tmcCancela/tfr250/tfr250.i3d"/>
+			<set path="vehicle.storeData.image" value="tfr250/store_tfr250.png"/>
+			<clearList path="vehicle.workAreas.workArea" keepIndex="1"/> 
+            <remove path="vehicle.cultivator"/>
+            <remove path="vehicle.plow"/>
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>TFR 250</name>
+        <image>$data/vehicles/tmcCancela/tfr250/store_tfr250.png</image>
+        <brand>TMCCANCELA</brand>
+        <category>forestryMulchers</category>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+</vehicle>

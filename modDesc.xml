@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+	<author>johnwayne1930</author>
+	<version>1.0.0.0</version>
+	
+	<title>
+		<en>No-Plow Stump Cutter</en>
+		<de>Baumstumpffräse Ohne Pflug</de>
+	</title>
+	
+	<description>
+<en><![CDATA[
+This Pack contains adjusted stump cutter TMC Cancela THX-180 and TFR-250 without cultivator or plow function.
+
+TMC Cancela THX-180
+Price: 23,000€
+Required power: 180 hp
+Working width: 1.8 m
+
+TMC Cancela TFK-250
+Price: 89,500€
+Required power: 360 hp
+Working width: 2.5 m
+Max. working speed: 10 kph
+]]></en>
+<de><![CDATA[
+Dieses Pack enthält die angepasste Baumstumpffräsen TMC Cancela THX-180 und TFR-250 ohne Grubber- oder Pflugfunktion.
+
+TMC Cancela THX-180
+Preis: 23.000€
+Benötigte Leistung: 180 PS
+Arbeitsbreite: 1,8 m
+
+TMC Cancela TFK-250
+Preis: 89.500€
+Benötigte Leistung: 360 PS
+Arbeitsbreite: 2,5 m
+Arbeitsgeschwindigkeit: 10 km/h
+]]></de>
+	</description>
+	
+	<iconFilename>icon_noPlowStumpCutter.dds</iconFilename>
+	<multiplayer supported="true"/>
+	
+	 <storeItems>
+		<storeItem xmlFilename="thx180/thx180.xml"/>
+		<storeItem xmlFilename="tfr250/tfr250.xml"/>
+	</storeItems>
+</modDesc>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="stumpCutterCultivatorPlow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="$data/vehicles/tmcCancela/thx180/thx180.xml">
+        <attributes>
+			<set path="vehicle.storeData.name" value="THX-180 (no-plow)"/>
+			<set path="vehicle.base.filename" value="$data/vehicles/tmcCancela/thx180/thx180.i3d"/>
+			<set path="vehicle.storeData.image" value="thx180/store_thx180.png"/>
+			<clearList path="vehicle.workAreas.workArea" keepIndex="1"/> 
+            <remove path="vehicle.cultivator"/>
+            <!-- <remove path="vehicle.plow"/> -->
+         </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>THX-180</name>
+        <image>$data/vehicles/tmcCancela/thx180/store_thx180.png</image>
+        <brand>TMCCANCELA</brand>
+        <category>forestryMulchers forestryExcavatorTools</category>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+</vehicle>
